@@ -95,31 +95,6 @@ img {
   margin: auto;
 }
 
-/* Кнопки */
-.prev, .next {
-  color: rgb(17, 14, 14);
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  margin-top: 25px; 
-  width: auto;
-  font-weight: bold;
-  padding: 20px; 
-  font-size: 25px;
-  transition: 0.50s ease;
-  border-radius: 0 75px 75px 0;
-  user-select: none;
-} 
-
-.next {
-right: 0;
-border-radius: 50px 0 0 50px; 
-}
-
-.prev:hover, .next:hover {
-background-color: #252020;
-} 
-
 
 /* цвет фона */
 .fon-container {
@@ -154,4 +129,3 @@ background-color: #252020;
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
