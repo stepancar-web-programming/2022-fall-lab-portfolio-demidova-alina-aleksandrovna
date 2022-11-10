@@ -1,4 +1,4 @@
-/* Контактов */
+/* Для контактов */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   font-family: sans-serif;
 }
 
-/* Навигайционная панель */
+/* Навигационная панель */
 .navigation {
   width: 70%;
   position: absolute;
