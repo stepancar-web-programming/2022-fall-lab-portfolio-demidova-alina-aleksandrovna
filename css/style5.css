@@ -67,10 +67,13 @@ body {
 }
 
 .main-section {
-  width: 90%;
+  width: 100%;
+  max-width: 1250%;
   min-height: 100vh;
-  padding: 150px 100px 100px;
-  position: absolute;
+  padding: 130px 100px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 5%;
   top: 0;
   transition: 1s;
   border-top: 60ch;
